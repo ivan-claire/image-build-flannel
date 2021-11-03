@@ -5,7 +5,7 @@ ARCH=$(shell go env GOARCH)
 endif
 
 BUILD_META=-build$(shell date +%Y%m%d)
-ORG ?= rancher
+ORG ?= awony
 PKG ?= github.com/flannel-io/flannel
 SRC ?= github.com/flannel-io/flannel
 TAG ?= v0.15.1$(BUILD_META)
